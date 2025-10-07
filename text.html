@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="th">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>แนะนำตัว - Portfolio</title>
+  <link rel="stylesheet" href="text.css">
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="namee" id="">
+    <a class="logo" href="#">My Profile</a>
+    <nav class="nav" id="mainNav">
+      <div><a href="#about">About Me</a></div>
+      <div><a href="#education">Study</a></div>
+      <div><a href="#contact">Contact</a></div>
+    </nav>
+  </div>
+  <!-- ปุ่มเปลี่ยนภาษา -->
+  <div class="lang-switch" id="langSwitch">TH</div>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <img src="01.jpg" alt="รูปโปรไฟล์ของคุณ" class="profile-photo">
+        <h1 id="heroName">ชื่อ <span class="highlight">นาย มีชัย มีแก้ว</span></h1>
+        <p class="lead" id="heroNick">ชื่อเล่น : เฟย์ | นักศึกษาปี 1</p>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container section">
+      <h2 id="aboutTitle">เกี่ยวกับฉัน</h2>
+      <p id="aboutText">
+        สวัสดีครับ ผมคือนาย มีชัย มีแก้ว ปัจจุบันศึกษาอยู่ที่วิทยาลัยศรีปทุม SPU<br>
+        คณะเทคโนโลยีสารสนเทศ สาขาวิทยาการคอมพิวเตอร์และนวัฒกรรมพัฒนาซอฟต์แวร์
+        ระดับชั้น ปริญญาตรี ชั้นปีที่ 1
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section dark">
+      <div class="container">
+        <h2 id="eduTitle">การศึกษา</h2>
+        <ul class="facts">
+          <li id="eduCollege">วิทยาลัย : ศรีปทุม SPU</li>
+          <li id="eduFaculty">คณะ : เทคโนโลยีสารสนเทศ</li>
+          <li id="eduMajor">สาขา : วิทยาการคอมพิวเตอร์และนวัฒกรรมพัฒนาซอฟต์แวร์</li>
+          <li id="eduLevel">ระดับชั้น : ปริญญาตรี ชั้นปีที่ 1</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2 id="contactTitle">ช่องทางการติดต่อ</h2>
+      <div class="socials">
+        <a href="https://facebook.com/meechaiy.meekaew" target="_blank" id="fb">Facebook</a>
+        <a href="https://www.instagram.com/y.ahc_eem" target="_blank" id="ig">Instagram</a>
+        <a href="mailto:Apmeechay@gmail.com" target="_blank" id="mail">Email: Apmeechay@gmail.com</a>
+      </div>
+    </section>
+
+    <div class="timetable-scroll-container">
+
+      <div class="timetable-card">
+        <div class="card-header tuesday" id="dayTuesday">อังคาร</div>
+        <div class="card-content" id="contentTuesday">
+          <p class="time">15:00-17:30 | CSI101</p>
+          <p class="detail">กลุ่ม:006 ปฏิบัติ ห้อง 05-0903</p>
+          <p class="lecturer">อ.วุฒิชัย พุ่มเย็น</p>
+        </div>
+      </div>
+
+      <div class="timetable-card">
+        <div class="card-header wednesday" id="dayWednesday">พุธ</div>
+        <div class="card-content" id="contentWednesday">
+          <p class="time">09:00-10:40 | USC10967</p>
+          <p class="detail">กลุ่ม:049 ทฤษฎี</p>
+          <p class="time">12:00-14:30 | CSI102</p>
+          <p class="detail">กลุ่ม:003 ทฤษฎี ห้อง 05-0409</p>
+          <p class="time">15:00-16:40 | CSI101</p>
+          <p class="detail">กลุ่ม:003 ทฤษฎี ห้อง 05-0404</p>
+        </div>
+      </div>
+
+      <div class="timetable-card">
+        <div class="card-header thursday" id="dayThursday">พฤหัสบดี</div>
+        <div class="card-content" id="contentThursday">
+          <p class="time">09:00-11:30 | USC12067</p>
+          <p class="detail">กลุ่ม:749 ทฤษฎี</p>
+          <p class="time">12:00-14:30 | CSI106</p>
+          <p class="detail">กลุ่ม:703 ทฤษฎี ห้อง 05-0306</p>
+          <p class="time">13:00-14:40 | CSI199</p>
+          <p class="detail">กลุ่ม:002 ปฏิบัติ ห้อง 01-0500</p>
+        </div>
+      </div>
+    </div>
+    </section>
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 My Profile</p>
+      </div>
+    </footer>
+  </main>
+
+
+  <script src="text.js"></script>
+</body>
+
+</html>
